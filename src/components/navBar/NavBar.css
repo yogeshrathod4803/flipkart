@@ -1,0 +1,92 @@
+.navbar {
+  background-color: #ffffff;
+}
+
+.navbar-container {
+  display: flex;
+  align-items: center;
+  height: 60px;
+}
+
+.navbar-logo {
+  margin-left: 4px;
+}
+
+.navbar-search {
+  position: relative;
+}
+
+.search-input {
+  width: 690px;
+  height: 40px;
+  padding: 0 40px 0 40px;
+  font-size: 18px;
+  margin-left: 60px;
+  border: none;
+  border-radius: 10px;
+  background-color: hsl(228, 71%, 97%);
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" class="w-6 h-6"><path strokeLinecap="round" strokeLinejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" /></svg>');
+  background-repeat: no-repeat;
+  background-position: left 10px center;
+  background-size: 20px;
+}
+
+.navbar-menu {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-item {
+  text-decoration: none;
+  margin-right: 40px;
+  padding: 0;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.login-nav {
+  height: 25px;
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6"><path stroke-linecap="round" stroke-linejoin="round" d="M17.982 18.725A7.488 7.488 0 0 0 12 15.75a7.488 7.488 0 0 0-5.982 2.975m11.963 0a9 9 0 1 0-11.963 0m11.963 0A8.966 8.966 0 0 1 12 21a8.966 8.966 0 0 1-5.982-2.275M15 9.75a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"/></svg>');
+  background-repeat: no-repeat;
+  background-position-x: 10px;
+  background-position-y: center;
+  background-size: contain;
+  padding: 0 15px 0 45px;
+  margin-left: 20px;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.cart-icon {
+  display: flex;
+  align-items: center;
+}
+
+.cart-icon svg {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+
+.cart-icon span {
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.seller {
+  display: flex;
+  align-items: center;
+}
+
+.seller img {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+
+.seller span {
+  font-size: 20px;
+  line-height: 24px;
+}
